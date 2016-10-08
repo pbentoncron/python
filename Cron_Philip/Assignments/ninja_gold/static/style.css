@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.locationsContainer {
+    display: inline-block;
+    height: 160px;
+    width: 200px;
+    border: solid;
+    text-align: center;
+}
+.yourGold {
+    vertical-align: top;
+}
+.activitiesBox {
+    display: block;
+    height: 160px;
+    width: 830px;
+    border: solid;
+    overflow: auto; /** this will not auto scroll on page?**/
+}

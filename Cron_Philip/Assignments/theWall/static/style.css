@@ -1,0 +1,25 @@
+.head {
+    display: inline-flex;
+}
+.headRight {
+    display: inline-flex;
+    float: right;
+}
+.messageBox {
+    height: 60px;
+    width: 500px;
+}
+.postMessage {
+    display: block;
+}
+.postComment {
+    display: block;
+}
+.displayMessage {
+    border: solid;
+}
+.logout {
+    margin-top: 25px;
+    margin-left: 20px;
+    display: inline-block;
+}

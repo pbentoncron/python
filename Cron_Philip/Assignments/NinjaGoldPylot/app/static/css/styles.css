@@ -1,0 +1,41 @@
+* {
+  font-family: monaco;
+}
+.locationsContainer {
+    display: inline-block;
+    height: 160px;
+    width: 200px;
+    border: solid;
+    text-align: center;
+}
+.inlineB {
+
+    display: inline-block;
+}
+.yourGold {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    vertical-align: top;
+}
+.numBorder {
+    border: solid;
+    width: 200px;
+    height: 50px;
+    padding-top: 13px;
+    padding-left: 10px;
+    display: inline-block;
+}
+.activitiesBox {
+    text-align: center;
+    display: block;
+    height: 160px;
+    width: 830px;
+    border: solid;
+    overflow: auto; /** this will not auto scroll on page?**/
+}
+.act {
+    margin-top: 20px;
+}
+.restart {
+    margin-top: 20px;
+}

@@ -1,0 +1,31 @@
+* {
+  font-family: monaco;
+}
+.container {
+    border: solid;
+    width: 350px;
+    padding: 20px;
+}
+.flash {
+    border: solid;
+    width: 320px;
+    padding: 10px;
+    background-color: red;
+    text-align: center;
+}
+.inlineB {
+    display: inline-block;
+}
+.styleBox {
+    border: solid;
+    background-color: green;
+    width: 350px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.styleBody {
+    border: solid;
+    width: 350px;
+    padding: 20px;
+}

@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Result</title>
+    <link rel="stylesheet" href="/static/css/styles.css" type="text/css">
+  </head>
+  <body>
+    <div class="styleBox">
+      <p>Thank you for submitting this form! You have <br> submitted this form {{ session['count'] }} times now.</p>
+    </div>
+    <div class="styleBody">
+      <h3>Submitted Information</h3>
+      <h4>Name: {{session['name']}}</h4>
+      <h4>Dojo Location: {{session['dojo_location']}}</h4>
+      <h4>Favorite language: {{session['favorite_language']}}</h4>
+      <h4>Comment: {{session['comment']}}</h4>
+      <form action="/">
+        <input type="submit" value="Go Back"</input>
+      </form>
+    </div>
+  </body>
+</html>

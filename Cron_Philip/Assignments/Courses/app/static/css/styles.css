@@ -1,0 +1,14 @@
+* {
+  font-family: monaco;
+}
+.coursesBox {
+    text-align: center;
+    display: block;
+    height: 300px;
+    border: solid;
+    overflow: auto;
+}
+.desc {
+    display: block;
+    margin-top: 10px;
+}
